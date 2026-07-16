@@ -1,4 +1,5 @@
 coder:
+  envUseClusterAccessURL: false
   env:
     - name: CODER_PG_CONNECTION_URL
       value: "postgres://coder:coder123@coder-postgres-postgresql.coder.svc.cluster.local:5432/coder?sslmode=disable"
