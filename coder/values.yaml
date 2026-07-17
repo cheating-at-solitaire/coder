@@ -7,6 +7,6 @@ coder:
           name: coder-db-url
           key: url
     - name: CODER_ACCESS_URL
-      value: "http://localhost:3000"
+      value: "http://coder.coder.svc.cluster.local"
   service:
     type: ClusterIP
