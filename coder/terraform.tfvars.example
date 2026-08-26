@@ -1,0 +1,15 @@
+# Copy this to terraform.tfvars and adjust. Do NOT commit terraform.tfvars itself.
+
+kube_config_path = "~/.kube/config"
+kube_context     = "" # leave blank to use current-context
+
+coder_namespace     = "coder"
+coder_chart_version = "2.18.0"
+
+coder_access_url          = "http://localhost:8080"
+coder_wildcard_access_url = ""
+
+deploy_inbuilt_postgres = true
+postgres_password       = "changeme"
+
+coder_service_type = "ClusterIP"
