@@ -5,6 +5,10 @@ metadata:
   description: Cloud development environment platform
   annotations:
     github.com/project-slug: cheating-at-solitaire/coder
+  links:
+    - url: http://127.0.0.1:3000
+      title: Open Coder
+      icon: dashboard
 spec:
   type: service
   lifecycle: production
